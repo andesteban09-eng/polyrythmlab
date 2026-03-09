@@ -1,0 +1,59 @@
+.nosotros{
+max-width:1000px;
+margin:60px auto;
+text-align:center;
+padding:20px;
+}
+
+.nosotros h2{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.nosotros p{
+font-size:20px;
+line-height:1.6;
+}
+
+.misionvision{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+max-width:1000px;
+margin:60px auto;
+padding:20px;
+}
+
+.bloque{
+background:#f4f4f4;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.bloque:hover{
+transform:translateY(-5px);
+box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.equipo{
+max-width:1000px;
+margin:60px auto;
+text-align:center;
+padding:20px;
+}
+
+.equipo h2{
+margin-bottom:20px;
+}
+@media (max-width:600px){
+
+.misionvision{
+grid-template-columns:1fr;
+}
+
+.nosotros h2{
+font-size:28px;
+}
+
+}
